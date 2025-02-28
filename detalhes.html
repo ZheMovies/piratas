@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da Mídia</title>
+    <link rel="stylesheet" href="detalhe.css">
+</head>
+<body>
+    <div id="media-details" class="media-details">
+        <button class="back-btn" onclick="window.history.back()">Voltar</button>
+        <div class="media-content">
+            <img id="media-backdrop" src="" alt="Imagem de Fundo" class="media-backdrop">
+            <div class="media-info">
+                <img id="media-poster" src="" alt="Poster" class="media-poster">
+                <div class="info-text">
+                    <h1 id="media-title"></h1>
+                    <p id="media-description"></p>
+                    <p><strong>Ano:</strong> <span id="media-release-date"></span></p>
+                    <p><strong>Nota:</strong> <span id="media-vote-average"></span></p>
+                    <p><strong>Gêneros:</strong> <span id="media-genres"></span></p>
+                    <p><strong>Duração:</strong> <span id="media-runtime"></span></p>
+                    <button id="media-watch-btn" class="watch-btn">Assistir</button>
+                </div>
+            </div>
+        </div>
+        <div id="seasons" class="seasons"></div>
+    </div>
+
+    <script src="detalhe.js"></script>
+</body>
+</html>

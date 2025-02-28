@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+.media-details {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.back-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.media-content {
+    display: flex;
+    gap: 20px;
+}
+
+.media-info {
+    max-width: 700px;
+    width: 100%;
+}
+
+.media-backdrop {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.media-poster {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.info-text {
+    color: #333;
+}
+
+.info-text h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.info-text p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.watch-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.watch-btn:hover {
+    background-color: #0056b3;
+}
+
+.seasons {
+    margin-top: 30px;
+}
+
+.season-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.season-btn:hover {
+    background-color: #0056b3;
+}
